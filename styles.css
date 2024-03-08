@@ -1,0 +1,448 @@
+html{
+    height: 120%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/Untitled\ design.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-starters{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-main{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-desert{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-drinks{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-extrass{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-food{
+    background-image: url(images/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*========== HEADER ==========*/
+
+.header{
+    background-color: #36454F;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: white;
+    font-size: 20px;
+}
+
+.header h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+
+
+
+/*========== HOME PAGE ==========*/
+
+#home-logo{
+    width: 25%;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+/*=====HOME PAGE MENU =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+
+.home-menu-item :hover{
+    color: mediumturquoise
+}
+
+/*========== MENU PAGE ==========*/
+
+#menu{
+    padding-top: 50px;
+}
+
+/*========== MENU PAGE LIST==========*/
+
+.menu-list a{
+    text-decoration: none;
+}
+
+.menu-list-item{
+    border: 5px ridge white;
+    margin: 10px;
+}
+
+.menu-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.menu-list-item i{
+    float: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.menu-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-top: -7;
+    padding-right: 10px;
+}
+
+.menu-list-item :hover{
+    color: mediumturquoise;
+}
+
+/*========== FOOD ==========*/
+
+#food{
+    padding-top: 50px;
+}
+
+/*========== STARTER INFO ==========*/
+
+.food-detail img{
+    width: 100%;
+}
+
+.food-detail h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px ridge white;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+
+}
+
+.food-info{
+    margin: 0 25px 0 25px;
+}
+
+.food-info p{
+    font-size: 13px;
+    display: inline-block;
+    color: white;
+}
+
+.extra-in-menu-list label{
+    line-height: 25px;
+    margin-left: 10px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.extra-in-menu-list h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-right: 10px;
+    color: white;
+}
+
+
+
+/*========== BUY NOW ==========*/
+
+.button{
+    display: block;
+    width: 50%;
+    background-color: #36454F;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 18px 0;
+    float: right;
+    margin-bottom: 25px;
+}
+
+.buy-now input{
+    width: 45%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+
+.buy-now textarea{
+    width: 50%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid white;
+    margin-bottom: 25px;
+}
+.buy-now h3{
+    color: white;
+}
+
+.buy-now h1{
+    color: white;
+    text-align: center;
+
+}
+
+.buy-now img{
+    padding-left: 250px;
+    width: 50%;
+}
+
+/*========== FLEX LAYOUT ==========*/
+
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    border-radius: 10px;
+    width: 75%;
+   align-items: center;
+   padding-left: 125px;
+}
+  
+  .item {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item img {
+    width: 50%;
+  }
+
+/*========== RESPONSIVE LAYOUT ==========*/
+
+@media only screen and (min-width: 600px){
+    #menu{
+        width: 60%;
+        margin: auto;
+    }
+
+
+    .body-home{
+        background-image: url(images/Untitled\ design.png);
+    }
+
+    .body-desert{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    }
+
+    .body-drinks{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-extrass{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-main{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-starters{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-food{
+    background-image: url(images/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px){
+    #menu{
+        width: 60%;
+        margin: auto;
+    }
+
+    .body-home{
+        background-image: url(images/Untitled\ design.png);
+    }
+
+    .body-desert{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    }
+
+    .body-drinks{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-extrass{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-main{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-starters{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-food{
+    background-image: url(images/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px){
+    #menu{
+        width: 40%;
+        margin: auto;
+    }
+
+    .body-home{
+        background-image: url(images/Untitled\ design.png);
+    }
+
+    .body-desert{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    }
+
+    .body-drinks{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-extrass{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-main{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-starters{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-food{
+    background-image: url(images/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+}
+
+@media only screen and (min-width: 720px){
+    .body-home{
+        background-image: url(images/Untitled\ design.png);
+    }
+
+    .body-home{
+        background-image: url(images/Untitled\ design.png);
+    }
+
+    .body-desert{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+    }
+
+    .body-drinks{
+        background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-extrass{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-main{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-starters{
+    background-image: url(images/red-pepper-fork-right-side-black-table.jpg);
+   }
+
+   .body-food{
+    background-image: url(images/grilled-meat-skewers-chicken-shish-kebab-with-zucchini-tomatoes-red-onions.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+
+}
