@@ -1,5 +1,5 @@
 html{
-    height: 120%;
+    height: 100%;
 }
 
 body{
@@ -90,10 +90,40 @@ body{
 
 .header a{
     text-decoration: none;
+    cursor: pointer;
 }
 
+/*========== SUB HEADER ==========*/
 
+.sub-header{
+    background-color: #252d33;
+    width: 100%;
+    height: 20px;
+    position: fixed;
+    top: 50px;
+    overflow: hidden;
+    z-index: 500;
+    left: 0;
+    padding-bottom: 20px;
+}
 
+.sub-header a{
+    float: left;
+    display: block;
+    width: 20%;
+    height: 35px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-header :hover{
+    cursor: pointer;
+    color: mediumturquoise;
+}
 
 /*========== HOME PAGE ==========*/
 
@@ -103,6 +133,30 @@ body{
     margin: auto;
     padding: 25px 10px 10px 10px;
 }
+
+#main-home h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.button-home{
+    display: block;
+    width: 100%;
+    background-color: #36454F;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 18px 0;
+    float: center;
+    margin-bottom: 25px;
+}
+
 
 /*=====HOME PAGE MENU =====*/
 
@@ -130,46 +184,10 @@ body{
     padding-top: 50px;
 }
 
-/*========== MENU PAGE LIST==========*/
-
-.menu-list a{
-    text-decoration: none;
-}
-
-.menu-list-item{
-    border: 5px ridge white;
-    margin: 10px;
-}
-
-.menu-list-item h1{
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-}
-
-.menu-list-item i{
-    float: right;
-    color: white;
-    padding-right: 10px;
-}
-
-.menu-list-item p{
-    font-size: 15px;
-    font-style: italic;
-    color: white;
-    margin-top: -7;
-    padding-right: 10px;
-}
-
-.menu-list-item :hover{
-    color: mediumturquoise;
-}
-
 /*========== FOOD ==========*/
 
 #food{
-    padding-top: 50px;
+    padding-top: 90px;
 }
 
 /*========== STARTER INFO ==========*/
@@ -272,6 +290,7 @@ body{
     width: 75%;
    align-items: center;
    padding-left: 125px;
+   margin: auto;
 }
   
   .item {
@@ -281,6 +300,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    top: 90px;
   }
   
   .item img {
@@ -326,6 +346,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
 
 
 }
